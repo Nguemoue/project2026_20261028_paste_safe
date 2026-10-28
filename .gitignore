@@ -1,0 +1,6 @@
+/vendor/
+examples/app.log
+*.log
+.idea/
+.vscode/
+.DS_Store

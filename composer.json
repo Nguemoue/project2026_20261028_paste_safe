@@ -1,0 +1,13 @@
+{
+    "name": "nguemoue/paste-safe",
+    "description": "One-file PHP tool that redacts API keys, tokens, passwords and PII from logs before you paste them.",
+    "type": "project",
+    "license": "MIT",
+    "bin": ["paste-safe.php"],
+    "require": {
+        "php": ">=8.1"
+    },
+    "scripts": {
+        "test": "php tests/redact_test.php"
+    }
+}
